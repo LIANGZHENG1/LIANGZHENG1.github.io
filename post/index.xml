@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>https://LIANGZHENG1.github.io/post/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <url>https://LIANGZHENG1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://LIANGZHENG1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 13 Dec 2022 00:56:39 +0800</lastBuildDate><atom:link href="https://LIANGZHENG1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>https://LIANGZHENG1.github.io/post/notes/</link>
+      <pubDate>Tue, 13 Dec 2022 00:56:39 +0800</pubDate>
+      
+      <guid>https://LIANGZHENG1.github.io/post/notes/</guid>
+      <description>Linux课程中的学习笔记 关于Linux： 1. Linux之父：Linuxs Torvalds
+2. 发行版本：Ubuntu 、Kali、Debian
+文件系统命令： 1. pwd 显示当前工作目录绝对路径
+2. cd .当前；..上一层；~家目录
+3. mkdir 创建目录
+4. ls 显示：-l当前；&amp;gt; ；-a包括隐藏；-h大小；-t时间；-d属性
+5. rmdir 删除（空）
+&amp;ndash; rm -rf 强制删除
+6. touch 创建文件
+7. cp （-a保留所有） 复制
+8. mv [被改] [改成]
+9. 通配符 ？一个；&amp;quot;*&amp;ldquo;多个；[]或；-范围
+10. 显示连接文件：cat
+11. 显示前（后）n行：
+head（tail） -n 行数 文件/”路径” 12. 搜索包含#的行 grep # 路径 -i忽略大小；-n显行；-v反查找；-r搜子目录
+13. 打包（解包）
+`tar -c（x）zvf ——gz tar -c（x）jvf ——bz2 tar -c（x）Jvf ——xz 14. zip打包：</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://LIANGZHENG1.github.io/post/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LIANGZHENG1.github.io/post/process/</guid>
+      <description>Linux大作业过程 一. 1. 安装git
+sudo yuum install git 2. 配置用户名和用户邮件
+git config --global user.name &amp;#34;LZ&amp;#34; git config --global user.email &amp;#34;1563194480@qq.com&amp;#34; git config --list 3. 配置Git的私钥和公钥
+ssh-keygen -t rsa -C &amp;#34;1563194480@qq.com&amp;#34; 4. linux上打开id_rsa.pub文件，复制密钥到github上
+cd .ssh ls vim id_rsa.pub 5. 进入个人设置点击 new ssh key后测试是否连接
+ssh git@github.com 6. github创建项目，将远程仓库与本地仓库连接起来
+git init git add README.md git commit -m &amp;#34;first commit&amp;#34; git branch -M main git remote add origin git@github.com:LIANGZHENG1/Linux.git ##二、
+编写sever并运行，可收到client的信息
+vim server.c gcc server.</description>
+    </item>
+    
+  </channel>
+</rss>
